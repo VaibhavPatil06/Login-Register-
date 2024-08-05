@@ -2,10 +2,10 @@ import mysql from 'mysql2/promise';
 import { Sequelize } from 'sequelize';
 
 const pool = mysql.createPool({
-  host: 'localhost', // Update with your database host
-  user: 'root', // Update with your database user
-  password: 'root', // Update with your database password
-  database: 'user_management', // Update with your database name
+  host: process.env.DB_HOST, // Update with your database host
+  user: process.env.DB_USER, // Update with your database user
+  password: process.env.DB_PASSWORD, // Update with your database password
+  database: 'process.env.DB_NAME', // Update with your database name
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
