@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import pool from '../database/database.js';
 
 // Secret key for JWT
-const JWT_SECRET = 'your_jwt_secret'; // Replace with your own secret key
+const JWT_SECRET = 'process.env.JWT_SECRET'; // Replace with your own secret key
 
 // Register a new user
 export const registerUser = async (req, res) => {
