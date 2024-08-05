@@ -18,8 +18,7 @@ This project is a MERN stack application that includes a user registration and l
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/mern-stack-project.git
-    cd mern-stack-project
+    https://github.com/VaibhavPatil06/Login-Register-
     ```
 
 2. Navigate to the `frontend` directory:
